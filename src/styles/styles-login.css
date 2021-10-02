@@ -1,0 +1,72 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+    background-image: linear-gradient(white, #ddd); 
+    background-repeat: no-repeat;
+    background-size:auto; 
+    justify-content: center;
+}
+
+#body-content{
+    display: flex; 
+    margin: auto; 
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    background-color: #fff; 
+    width: 60vmax; border-radius: 2px; 
+    align-self: center;
+    height: 70vh;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#div-img{
+    display: flex; 
+    flex: 1; 
+    background-color: rgb(0 113 206); 
+    justify-content: center; 
+    padding: 2vmax;
+}
+
+#div-img img{
+    content: url("../resources/favicon.svg");
+}
+
+#div-form{
+    display: flex; 
+    flex: 1; 
+    flex-direction: column; 
+    padding: 2vmax; 
+    justify-content: center;
+}
+
+#div-form span{
+    margin-bottom: .5vmax; 
+    font-size: 14px; 
+    font-weight: bold;
+}
+
+#div-form input{
+    height: 2vmax; 
+    margin-bottom: 3vmax;
+}
+
+#form-btn{
+    border: none; 
+    height: 3vmax; 
+    border-radius: 5px; 
+    align-self: center; 
+    margin-top: 2vmax;
+    transition: background-color .15s;
+    background-color: #e0e1e2;
+}
+
+#form-btn:hover{
+    background-color: #cacbcd;
+    cursor: pointer;
+}
+
+
+#expand{
+    content: url("../resources/expand_more_black_24dp.svg");
+    height: 26px;
+}
+
